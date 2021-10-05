@@ -1,0 +1,13 @@
+.bodyContainer {
+  height: calc(100vh - 4rem);
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 4px;
+  background: rgba(167, 139, 250, 0.3);
+}
+::-webkit-scrollbar-thumb:horizontal {
+  background: rgba(167, 139, 250, 1);
+  border-radius: 10px;
+}
